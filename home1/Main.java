@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         FamilyTree<Human> familyTree = new FamilyTree<>();
 
-        // добавляем немного данных
+        // добавляем данные
         familyTree.addFamilyTree(new Human("Алекс", "муж", 27));
         familyTree.addFamilyTree(new Human("Иван Иванович Иванов", "муж", 70));
         familyTree.getByName("алекс");
